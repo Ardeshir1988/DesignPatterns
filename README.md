@@ -6,3 +6,5 @@ Design Patterns with Java
 2-state
 
 3-iterator
+
+4-strategy
