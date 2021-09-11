@@ -8,3 +8,5 @@ Design Patterns with Java
 3-iterator
 
 4-strategy
+
+5-template method
