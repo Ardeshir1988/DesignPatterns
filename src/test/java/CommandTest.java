@@ -1,6 +1,8 @@
 import command.AddUserCommand;
 import command.ButtonTool;
+import command.CommandType;
 import command.UserService;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class CommandTest {
@@ -9,6 +11,6 @@ public class CommandTest {
         var userService = new UserService();
         var command = new AddUserCommand(userService);
         var button = new ButtonTool(command);
-        button.click();
+        Assert.assertEquals(CommandType.ADD,button.click());
     }
 }

@@ -1,7 +1,7 @@
 package command;
 
 public class UserService {
-    public void addUser(){
-        System.out.println("add user");
+    public CommandType addUser(){
+        return CommandType.ADD;
     }
 }

@@ -2,14 +2,14 @@ package command;
 
 public class ButtonTool {
     private String label;
-    private Command command;
+    private final Command command;
 
     public ButtonTool(Command command) {
         this.command = command;
     }
 
-    public void click(){
-        command.execute();
+    public CommandType click(){
+        return command.execute();
     }
     public String getLabel() {
         return label;
