@@ -10,3 +10,5 @@ Design Patterns with Java
 4-strategy
 
 5-template method
+
+6-command
