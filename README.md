@@ -12,3 +12,7 @@ Design Patterns with Java
 5-template method
 
 6-command
+
+7-observer
+
+8-mediator
